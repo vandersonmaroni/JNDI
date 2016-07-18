@@ -1,0 +1,7 @@
+<jboss-web>
+	<resource-ref>
+		<res-ref-name>MySqlDS</res-ref-name> <!-- matches web.xml -->
+		<jndi-name>java:/MySqlDS</jndi-name> <!-- matches oracle-ds.xml -->
+		<res-type>javax.sql.DataSource</res-type>
+	</resource-ref>
+</jboss-web>
